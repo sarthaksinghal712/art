@@ -195,10 +195,20 @@
 			h1 {
 				font-size: 1.5em;
 			}
+
+
+		}
+
+		@media only screen and (max-width: 600px){
 			.insta{
 				padding-left: 0;
 			}
-
+			#nav{
+				display: none;
+			}
+			#nextt{
+				display: block!important;
+			}
 		}
 
 	h2 {
@@ -1401,6 +1411,19 @@
 
 		}
 
+#nextt{
+	color: rgba(255, 255, 255, 0.5);
+	text-decoration: none;
+	font-size: 1.5em;
+	position: absolute;
+	margin-top: -70vh;
+	z-index: 50000;
+	text-align: center;
+}
+#nextt span{
+	padding: 1em;
+}
+
 /* Header */
 
 	#header {
@@ -1452,6 +1475,9 @@
 						width: 3.4em;
 					}
 
+				}
+				#nextt a.active{
+					color: #19B5FE;
 				}
 
 /* Banner */
