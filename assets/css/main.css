@@ -17,6 +17,16 @@
 		font: inherit;
 		vertical-align: baseline;
 	}
+	.referral{
+		display: none!important;
+	}
+	.insta{
+		padding-left: 3.5em;
+	}
+
+
+
+
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
@@ -1399,7 +1409,7 @@
 	#nav {
 		background: #191919;
 		z-index: 10002;
-		position: relative;
+		position: absolute;
 		width: 4em;
 	}
 
@@ -1407,7 +1417,7 @@
 			list-style: none;
 			margin: 0;
 			padding: 0;
-			position: fixed;
+			position: absolute;
 			top: 1em;
 			left: 0;
 		}
